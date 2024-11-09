@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #131313;
+    background-color: #A9A9A9;
     font-family: Inter, sans-serif;
     font-weight: 400;
 }
@@ -9,6 +9,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 ul,
 ol,
@@ -20,9 +22,7 @@ blockquote {
 
 .content-section {
     box-sizing: border-box;
-    width: 100%;
-    max-width: 360px;
-    min-height: 100px;
+    width: 360px;
     margin: auto;
 }
 
@@ -37,10 +37,10 @@ blockquote {
 }
 
 .header {
-    padding: 24px 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 24px 20px;
 }
 
 .header__logo {
@@ -73,6 +73,30 @@ blockquote {
 
 .cover {
     padding: 7px 0px 30px 20px;
+    background-image: url(../images/cover.svg);
+    min-height: 258px;
+}
+
+.cover__title {
+    width: 100%;
+    color: #f5f5f5;
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+    padding-right: 24px;
 }
 
 .intro {
